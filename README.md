@@ -2,6 +2,18 @@
 
 A standalone desktop application for playing the Yeet game on Berachain with a built-in local wallet.
 
+
+## 🚨 IMPORTANT - macOS Security Fix
+
+If the app shows as **"damaged and can't be opened"**, run this command in Terminal:
+
+```bash
+xattr -c /Applications/<path to .app>
+```
+
+This removes the quarantine flag that macOS adds to downloaded apps. [Learn more →](https://discussions.apple.com/thread/253714860?answerId=257037956022&sortBy=rank#257037956022)
+
+
 ## Installation
 
 1. Download the `Yeet Game.app` file
